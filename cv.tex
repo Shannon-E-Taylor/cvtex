@@ -43,21 +43,24 @@
 \usepackage[normalem]{ulem} 
 \sectionfont{\mdseries\upshape\Large}
 \subsectionfont{\mdseries\scshape\normalsize} 
-\subsubsectionfont{\mdseries\upshape\large} \
+\subsubsectionfont{\mdseries\upshape\large} 
 
 %make multicolumn bits for references 
-%\usepackage{multicol}
+\usepackage{multicol}
+
+
+
+
 
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
-\usepackage[dvipdfm, bookmarks, colorlinks, breaklinks, 
+\usepackage[driverfallback = dvipdfm, bookmarks, colorlinks, breaklinks, 
 % ---- FILL IN HERE THE TITLE AND AUTHOR
 	pdftitle={Shannon Taylor},
 	pdfauthor={Shannon Taylor},
 	pdfproducer={http://nitens.org/taraborelli/cvtex}
 ]{hyperref}  
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
-
 % DOCUMENT
 \begin{document}
 {\LARGE Shannon Taylor}\\[1cm]
@@ -100,7 +103,7 @@ ATAR 97.45 \\
 \noindent
 \years{2018}\textbf{Taylor, S.E.}, Tuffrey, J., and Dearden, P.K. (2018) ``\emph{Torso-like} is necessary for vitelline membrane integrity in \emph{Nasonia vitripennis}'', Euro Evo Devo 2018, Galway, Ireland. \\
 \years{2017} Cridge, A. G., Lovegrove, M, Skelly, J. G., \textbf{Taylor, S. E.}, Petersen, G. E.L., Cameron, R. C., and Dearden, P. K. (2017), “The honeybee as a model insect for developmental genetics", \emph{Genesis} 55: 5, DOI: 10.1002/dvg.23019\\
-\years{In prep.}\textbf{Taylor, S.E.}, Tuffrey, J., Lequeux, S and Dearden, P.K. ``The \emph{Drosophila} axis formation gene \emph{torso-like} functions to maintain the structure of the vitelline membrane in \emph{Nasonia vitripennis}''.
+\years{In prep.}\textbf{Taylor, S.E.}, Tuffrey, J., Lequeux, S and Dearden, P.K. ``The \emph{Drosophila} axis formation gene \emph{torso-like} functions to maintain the structure of the vitelline membrane in \emph{Nasonia vitripennis}''. Journal article in preparation. 
 
 %\hrule
 \section*{Scholarships and Awards}
@@ -125,11 +128,12 @@ Investigating gene expression using \emph{in situ} hybridization, immunohistoche
 Imaging using light microscopy, confocal microscopy, and some electron microscopy \\
 Programming: beginner to intermediate python, R, git. \\
 
-%\begin{multicols}{2}
 
-\begin{minipage}[t]{0.5\textwidth}
 
 \section*{References}
+
+\begin{multicols}{2}
+
 \textbf{Prof. Peter Dearden}\\
 Academic supervisor\\ 
 Laboratory for Evolution and Development\\ 
@@ -137,35 +141,15 @@ Otago University\\
 +64 3 479 7832\\
 Email: peter.dearden@otago.ac.nz\\
 
-\end{minipage}
-
-\begin{minipage}[t]{0.5\textwidth}
-
 \textbf{Sharleen Rae-Whitcombe}\\
 Demonstrating supervisor\\ 
 Department of Biochemistry\\
 Otago University\\ 
 +64 3 479 7083\\
-sharleen.rae-whitcombe@otago.ac.nz\\
-
-yeeeeeeeeeee
+Email: sharleen.rae-whitcombe@otago.ac.nz\\
 
 
-\end{minipage}
+\end{multicols}
 
-%\end{multicols}
-
-%\vspace{1cm}
-\vfill{}
-%\hrulefill
-
-\begin{center}
-{\scriptsize  Last updated: \today\- •\- 
-% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
-Typeset in \href{http://nitens.org/taraborelli/cvtex}{
-\fontspec{Times New Roman}\XeTeX }\\
-% ---- FILL IN THE FULL URL TO YOUR CV HERE
-\href{http://nitens.org/taraborelli/cvtex}{http://nitens.org/taraborelli/cvtex}}
-\end{center}
 
 \end{document}
